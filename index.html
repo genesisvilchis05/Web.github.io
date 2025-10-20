@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Creativa</title>
+
+  <style>
+    /* --- ESTILOS GENERALES --- */
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #9face6);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.3);
+      padding: 20px;
+      border-bottom: 2px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    /* --- BOTÓN INTERACTIVO --- */
+    button {
+      text-align:center;
+      background-color: #ff8c00;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 15px;
+    }
+    .boton-final {
+        display: block;
+        margin: 40px auto 20px auto;
+        background-color: #ff8c00;
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        font-size: 1em;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+    }
+
+.boton-final:hover {
+  background-color: #ffae42;
+  transform: scale(1.1);
+}
+    button:hover {
+      background-color: #ffae42;
+      transform: scale(1.1);
+    }
+
+    /* --- TARJETA DE INFORMACIÓN --- */
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    ol {
+      text-align: left;
+      margin-left: 40px;
+    }
+
+    /* --- TABLA --- */
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #7bdcb5;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* --- SECCIÓN COMENTARIOS --- */
+    .comentarios-section {
+      background-color: white;
+      border-radius: 15px;
+      width: 80%;
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    }
+
+    form {
+      text-align: left;
+    }
+
+    label, input, textarea {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+
+    #comentarios-lista p {
+      text-align: left;
+      background-color: #f9f9f9;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+
+    /* --- PIE DE PÁGINA --- */
+    footer {
+      background: rgba(255, 255, 255, 0.3);
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    /* --- MULTIMEDIA --- */
+    .media {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .media img, .media iframe {
+      max-width: 90%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <h1>🌈 Bienvenido 🌈</h1>
+    <p>Genesis Daniela Hernández Vilchis</p>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <section class="card">
+    <h2>✨ Un poco de mi....</h2>
+    <p>Hola me llamo Génesis y actualmente estoy estudiando la universidad en la unistmo campus Tehuantepec, soy una chica muy tímida y por eso me cuesta hacer amigos, hace poco me integré a un grupo de amigos y me la paso muy bien con ellos.
+    Mis gustos son muy variados y eso me hace ser muy indecisa, pero de lo que sí estoy segura es que me encanta el café ☕, es mi bebida favorita. Las películas animadas son las que me gustan, y me gusta comer casi todo tipo de comidas excepto por el hígado... eso sí no me gusta 😅</p>
+
+    <h4>Artistas favoritos</h4>
+    <ol type="A">
+      <li>Ha*Ash</li>
+      <li>Reik</li>
+      <li>Morat</li>
+      <li>Katy Perry</li>
+    </ol>
+
+    <h2>Tabla de películas favoritas</h2>
+    <table>
+      <tr>
+        <th>Peli</th>
+        <th>Vistas</th>
+        <th>favoritas</th>
+      </tr>
+      <tr>
+        <td>Shrek</td>
+        <td>si</td>
+        <td>80/100</td>
+      </tr>
+      <tr>
+        <td>Encanto</td>
+        <td>si</td>
+        <td>80/100</td>
+      </tr>
+      <tr>
+        <td>Coco</td>
+        <td>si</td>
+        <td>50/100</td>
+      </tr>
+            <tr>
+        <td>Nimona</td>
+        <td>si</td>
+        <td>1000/100</td>
+      </tr>
+    </table>
+
+  </section>
+
+  <!-- MULTIMEDIA -->
+  <section class="card media">
+    <h2>🎥 Mis gustos visuales</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" alt="Taza de café" width="300">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2C5p078MZ6tGWfkxv4Lepo2U1NZ7PtqxiWQ&s" alt="Película animada GIF">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/awzWdtCezDo" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- COMENTARIOS -->
+  <section class="comentarios-section">
+    <h2>Comentarios</h2>
+    <form id="comentario-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="comentarios-lista">
+      <h3>Comentarios anteriores:</h3>
+    </div>
+  </section>
+   <button onclick="mostrarMensaje()">Haz clic aquí 😄</button>
+    <p id="mensaje" style="display:none; margin-top:15px; font-weight:bold; color:#0077b6;"></p>
+  
+    <!-- PIE DE PÁGINA -->
+  <footer>
+    &copy; 2025 - Creado por <b>GENI</b> con ❤️ y creatividad.
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    function mostrarMensaje() {
+      const mensaje = document.getElementById("mensaje");
+      mensaje.style.display = "block";
+      mensaje.textContent = "¡Gracias por visitar mi página! 🌻";
+    }
+
+    const form = document.getElementById("comentario-form");
+    const lista = document.getElementById("comentarios-lista");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const nombre = document.getElementById("nombre").value;
+      const comentario = document.getElementById("comentario").value;
+
+      const nuevoComentario = document.createElement("p");
+      nuevoComentario.innerHTML = `<strong>${nombre}:</strong> ${comentario}`;
+      lista.appendChild(nuevoComentario);
+
+      form.reset();
+    });
+  </script>
+
+</body>
+</html>
